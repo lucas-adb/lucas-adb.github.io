@@ -3,21 +3,71 @@
     <head>
         <meta charset="UTF-8">
         <title>Meu Primeiro Portfólio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+
+           body {
+            font-family: 'IBM Plex Sans', monospace;
+            background-color: #10111a;
+            color: white;
+            padding: 30px 30px;
+            } 
+
+            h1 {
+                color: #f37a53;
+                font-family: 'IBM Plex Mono', monospace;
+                font-weight: bold;
+
+            }
+
+            a {
+                color: #c963c0;
+                text-decoration: none;
+            }
+
+            img {
+                border-radius: 100px;
+            }
+
+            strong {
+                color: #46b89d; 
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 0;
+                padding-top: 0;
+            }
+
+            .redes-sociais {
+                display: inline;
+            }
+
+        </style>
     </head>
     <body>
-        <nav id="navbar">
-            <header>índice</header>
+        <header>
+            <p>/Lucas Alves</p>
+            <nav id="navbar">
             <ul>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">└── sobre mim</a></li>
+                <li><a href="#skills">└── skills</a></li>
+                <li><a href="#contato">└── contato</a></li>
             </ul>
-        </nav>
+            </nav>
+        </header>
         <div id="sobre">
             <a href="https://www.linkedin.com/in/lucasalvesbrito/"><img src="lucas-perfil.jpeg" width="200px" alt="foto de perfil sorrindo"></a>
-            <h1>Oi, eu sou o Lucas 👋</h1>
+            <div>
+            <h1>Oi, eu sou o Lucas!</h1>
             <p>Brasileiro, 29 anos. Atualmente moro em Goiânia, GO</p>
             <p>Oi, sou um profissional criativo em transição para <strong>desenvolvimento web</strong>. Já trabalhei como designer, pesquisador em comunicação e estrategista de marcas. Após viver de perto o dia a dia de algumas <em>startups</em>, fazendo pesquisas com usuários, entrevistas com colaboradores e desenvolvendo suas marcas, me apaixonei pelo lado “mão na massa” e ágil da área de tecnologia. Ali vi que minhas habilidades multidisciplinares poderiam contribuir ao trazer um olhar diferente para seus problemas.</p>
+            </div>
         </div>
         <div id="skills">
         <h2>Skills</h2>
@@ -40,9 +90,12 @@
         </div>
         <div id="contato">
             <h2>Informação de contato</h2>
-            <p><a href="https://www.linkedin.com/in/lucasalvesbrito/">LinkedIn</a></p>
-            <p><a href="https://github.com/lucas-adb">GitHub</a></p>
-            <p><a href="https://medium.com/@labnotes">Medium</a></p>
+            <p class="redes-sociais"><a href="https://www.linkedin.com/in/lucasalvesbrito/">LinkedIn</a></p>
+            <p class="redes-sociais">|</p>
+            <p class="redes-sociais"><a href="https://github.com/lucas-adb">GitHub</a></p>
+            <p class="redes-sociais">|</p>
+            <p class="redes-sociais"><a href="https://medium.com/@labnotes">Medium</a></p>
+            <p class="redes-sociais">|</p>
         </div>
     </body>
 </html>
