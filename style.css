@@ -1,0 +1,78 @@
+body {
+    font-family: 'IBM Plex Sans', monospace;
+    background-color: #10111a;
+    color: white;
+    padding: 30px 30px;
+    margin: 0 auto;
+    width: 80%;    
+}
+
+h1 {
+    color: #f37a53;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+a {
+    color: #c963c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #46b89d;
+    transition: ease;
+}
+
+img {
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 500px;
+    padding: 5px;
+    background-color: #c963c0;
+}
+
+img:hover {
+    background-color: #46b89d;
+}
+
+strong {
+    color: #f37a53;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.redes-sociais {
+    margin: 0px;
+    line-height: 20px;
+    padding-top: 0;
+    
+}
+
+#foto-e-sobre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#header-name {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-block {
+    margin-right: 50px;
+}
