@@ -4,17 +4,34 @@ body {
     color: white;
     padding: 30px 30px;
     margin: 0 auto;
-    width: 80%;    
+    width: 80%;
+    max-width: 1200px;
+    /* margin-left: 250px; */
 }
+
+/* header {
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: 0;
+} */
 
 h1 {
     color: #f37a53;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#sub {
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 h2 {
     margin-bottom: 0px;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 a {
@@ -29,8 +46,8 @@ a:hover {
 
 img {
     border-radius: 5px;
-    margin-right: 20px;
-    width: 500px;
+    margin-right: 30px;
+    width: 240px;
     padding: 5px;
     background-color: #c963c0;
 }
@@ -55,24 +72,33 @@ ul {
     margin: 0px;
     line-height: 20px;
     padding-top: 0;
-    
+
 }
 
 #foto-e-sobre {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 #header-name {
-    text-align: center;
+    text-align: left;
 }
 
 #skills {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    margin-top: 0;
+}
+
+#skills h3 {
+    margin-top: 15px;
+    width: 240px;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .skills-block {
-    margin-right: 50px;
+    margin-right: 30px;
+    width: 250px;
 }
