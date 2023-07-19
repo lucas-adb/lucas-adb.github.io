@@ -1,80 +1,146 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Alves</title>
+    <link rel="icon" href="./images/new-favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+    </style>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Meu Primeiro Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Open+Sans&display=swap"
-        rel="stylesheet">
-</head>
+  <body>
+    <div class="wrapper">
+      <!-- <header class="header__container"> -->
+      <header class="header">
+        <!-- <h1>Lucas Alves</h1> -->
+        <a href="/" class="logo">Lucas Alves</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="nav-icon"></span
+        ></label>
+        <ul class="menu">
+          <li><a href="#projects" class="header_hover">Projetos</a></li>
+          <li><a href="#about" class="header_hover">Sobre</a></li>
+          <li><a href="#contact" class="header_hover">Contato</a></li>
+          <!-- <li><a href="" class="header__a"><button class="header__btn">Contato</button></a></li> -->
+        </ul>
+      </header>
 
-<body>
-    <header>
-        <p id="header-name">/Lucas Alves</p>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#sobre">└── sobre mim</a></li>
-                <li><a href="#skills">└── skills</a></li>
-                <li><a href="#contato">└── contato</a></li>
+      <main>
+        <section class="hero__container">
+          <div class="hero__text__img_container">
+            <div class="hero__text__container">
+              <h1 class="hero__h1">
+                Oi, bão?<br />sou o <mark>Lucas</mark>,<br />Web Developer
+              </h1>
+              <p>Frontend Developer.</p>
+            </div>
+            <div class="hero__img__container">
+              <img
+                class="hero__avatar"
+                src="./images/avatar.png"
+                alt="avatar"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="projects__container" id="projects">
+          <div class="projects__h1__list__container">
+            <h2>Projetos</h2>
+            <ul class="projects__list">
+              <li>
+                <div class="li__image__container">
+                  <img src="./images/screenshot-1.png" alt="duck" />
+                </div>
+                <div class="li__text__container">
+                  <h3>Tarefas do dia</h3>
+                  <p>To-do list para documentar as atividades do dia.</p>
+                  <a href="https://lucas-adb.github.io/tarefas-do-dia/"
+                    >👆 Saiba mais</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="li__image__container">
+                  <img src="./images/screenshot-2.png" alt="duck" />
+                </div>
+                <div class="li__text__container">
+                  <h3>PiggyWallet</h3>
+                  <p>Carteira de gastos internacionais.</p>
+                  <a href="https://piggywallet.vercel.app/">👆 Saiba mais</a>
+                </div>
+              </li>
+              <li>
+                <div class="li__image__container">
+                  <img src="./images/screenshot-2.png" alt="duck" />
+                </div>
+                <div class="li__text__container">
+                  <h3>PiggyWallet</h3>
+                  <p>Carteira de gastos internacionais.</p>
+                  <a href="https://piggywallet.vercel.app/">👆 Saiba mais</a>
+                </div>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </section>
 
-    <div id="foto-e-sobre">
-        <div id="foto-perfil">
-            <a href="https://www.linkedin.com/in/lucasalvesbrito/"><img src="./images/lucas-perfil.jpeg" width="200px"
-                    alt="foto de perfil sorrindo"></a>
-        </div>
-        <div id="sobre">
-            <h1>Oi, eu sou o Lucas!</h1>
-            <p>Brasileiro, 29 anos. Atualmente moro em Goiânia, GO</p>
-            <p>Oi, sou um profissional criativo em transição para <strong>desenvolvimento web</strong>. Já trabalhei
-                como
-                designer, pesquisador em comunicação e estrategista de marcas. Após viver de perto o dia a dia de
-                algumas
-                <em>startups</em>, fazendo pesquisas com usuários, entrevistas com colaboradores e desenvolvendo suas
-                marcas, me apaixonei pelo lado “mão na massa” e ágil da área de tecnologia. Ali vi que minhas
-                habilidades
-                multidisciplinares poderiam contribuir ao trazer um olhar diferente para seus problemas.
-            </p>
-        </div>
-    </div>
-
-    <h2>Skills</h2>
-    <div id="skills">
-        <div class="skills-block">
-            <h3>Principais skills</h3>
-            <ul>
-                <li>Unix</li>
-                <li>Git</li>
-                <li>GitHub</li>
+        <section class="about__container" id="about">
+          <div class="about__text__container">
+            <div>
+              <h2>Sobre</h2>
+              <p>
+                Já fui designer, pesquisador em comunicação e estrategista de
+                marcas. Foi conduzindo pesquisas e construindo marcas para
+                startups que pude presenciar de perto o dia a dia de
+                desenvolvedores. Logo me apaixonei pela área de tecnologia e
+                suas possibilidades criativas e em 2023, migrei de profissão.
+              </p>
+            </div>
+            <div>
+              <h2>Tech Stack</h2>
+              <ul class="about__list">
+                <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-        </div>
-        <div class="skills-block">
-            <h3>Outras skills</h3>
-            <ul>
-                <li>Comunicação</li>
-                <li>Estratégia de marca</li>
-                <li>Pesquisa de mercado</li>
-                <li>Entrevista com usuários</li>
-            </ul>
-        </div>
-        <div id="contato">
-            <h3>Informação de contato</h3>
-            <p class="redes-sociais"><a href="https://www.linkedin.com/in/lucasalvesbrito/">└── LinkedIn</a></p>
-            <p class="redes-sociais"><a href="https://github.com/lucas-adb">└── GitHub</a></p>
-            <p class="redes-sociais"><a href="https://medium.com/@labnotes">└── Medium</a></p>
-        </div>
-    </div>
-</body>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Jest</li>
+                <li>RTL</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Figma</li>
+                <li>Ai</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
 
+      <footer id="contact">
+        <div class="footer__text__container">
+          <img src="./images/logo-white.png" />
+          <div class="socials">
+            <a href="mailto: alvesdebrito.lucas@gmail.com"
+              >alvesdebrito.lucas@gmail.com</a
+            >
+            <a href="https://github.com/lucas-adb">
+              <i class="devicon-github-original"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lucasalvesbrito">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
